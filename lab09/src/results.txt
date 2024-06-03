@@ -1,0 +1,42 @@
+Enter # strings to insert into ULLMap: melody #
+Please enter a positive integer: Please enter a positive integer: 10
+ULLMap: 0.00 sec
+
+Enter # strings to insert into your MyHashMap: # melody
+Please enter a positive integer: Please enter a positive integer: 10
+MyHashMap: 0.17 sec
+
+Enter # strings to insert into Java's HashMap: #melody
+Please enter a positive integer: 10
+Java's Built-in HashMap: 0.00 sec
+
+test for insertrandomspeedTest
+clearly myhashmap is slower, i believe it's the problem of my resize method
+
+Enter # strings to insert into ULLMap: #???????????????????
+Please enter a positive integer: 10000
+ULLMap: 0.73 sec
+
+Enter # strings to insert into MyHashMap:  #???????????????????
+Please enter a positive integer: 10000
+MyHashMap: 0.01 sec
+
+Enter # strings to insert into Java's HashMap: #???????????????????
+Please enter a positive integer: 10000
+Java's Built-in HashMap: 0.00 sec
+
+data for insertInOrderSpeedFirst
+much more faster,and my speed is in available scope too, hope i can find a way to resize efficient
+
+What would you like L to be?: melody
+Please enter a positive integer: 1000
+
+Enter # strings to insert into each map: # melody
+Please enter a positive integer: Please enter a positive integer: 1000
+MyHashMap with ArrayList buckets: 1.33 sec
+MyHashMap with LinkedList buckets: 1.27 sec
+MyHashMap with HashSet buckets: 1.56 sec
+MyHashMap with Stack buckets: 1.39 sec
+MyHashMap with ArrayDeque buckets: 1.06 sec
+
+clearly arraydeque is much more faster

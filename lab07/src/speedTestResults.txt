@@ -1,0 +1,25 @@
+string length: 200
+
+integer: 3000
+class ULLMap: 0.05 sec
+class BSTMap: 0.01 sec
+Java's Built-in TreeMap: 0.01 sec
+Java's Built-in HashMap: 0.01 sec
+
+integer: 9000
+class ULLMap: 0.42 sec
+class BSTMap: 0.02 sec
+Java's Built-in TreeMap: 0.02 sec
+Java's Built-in HashMap: 0.02 sec
+
+integer: 15000
+class ULLMap: 1.10 sec
+class BSTMap: 0.04 sec
+Java's Built-in TreeMap: 0.03 sec
+Java's Built-in HashMap: 0.03 sec
+
+30000
+class ULLMap: 10.40 sec
+class BSTMap: 0.09 sec
+Java's Built-in TreeMap: 0.07 sec
+Java's Built-in HashMap: 0.06 sec
